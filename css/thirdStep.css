@@ -1,0 +1,193 @@
+.thirdSection{
+    margin: 0 104px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.thirdSection h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,285px);
+    grid-template-rows: repeat(2,446px);
+    gap: 32px;
+}
+
+.content-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grey-blur {
+    display: none;
+}
+
+.click-add {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.content-item:hover .grey-blur {
+    display: block;
+}
+
+.content-item:hover .click-add {
+    display: block;
+}
+
+.text{
+    width: 285px;
+    height: 145px;
+    background: rgba(244, 245, 247, 1);
+}
+
+.block-name{
+    margin: 16px;;
+}
+
+.block-name h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    margin: -2px 0 8px 0;;
+    color: rgba(58, 58, 58, 1);
+}
+
+.block-name span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 0;
+    color: rgba(137, 137, 137, 1);
+}
+
+.block-price{
+    margin-left: 16px;
+    margin-top: 8px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.block-price span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(58, 58, 58, 1);
+}
+
+.block-price del{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+    color: rgba(176, 176, 176, 1);
+}
+.label-sale{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: rgba(233, 113, 113, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 213px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.label-new{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: rgba(46, 193, 172, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 213px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.click-add{
+    position: absolute;
+    width: 202px;
+    height: 96px;
+    margin: 175px 42px;
+}
+
+.click-add button{
+    width: 202px;
+    height: 48px;
+    background: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(232, 159, 113, 1);
+    border: none;
+}
+
+.click-add-optins{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+    margin: 24px 5px 0px 13px;
+}
+.click-add-optins-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.click-add-optins span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.grey-blur{
+    position: absolute;
+    width: 285px;
+    height: 446px;
+    opacity: 72%;
+    background-color: rgba(58, 58, 58, 1);
+}
+.show-more{
+    width: 245px;
+    height: 48px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 159, 113, 1);
+    background-color: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(232, 159, 113, 1);
+    margin: 32px 0px;
+}
