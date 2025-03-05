@@ -1,4 +1,5 @@
 .fourthSection{
+    margin-top: 12px;
     height: 670px;
     background: rgba(252, 248, 243, 1);
     display: flex;
@@ -34,6 +35,7 @@
 }
 
 .fourthSection-content button{
+    cursor: pointer;
     width: 176px;
     height: 48px;
     border: none;
@@ -101,6 +103,7 @@
 }
 
 .fourthSection-point{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,6 +113,7 @@
 }
 
 .fourthSection-indicator{
+    cursor: pointer;
     display: flex;
     margin-top: 40px;
 }

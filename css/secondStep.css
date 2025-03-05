@@ -1,7 +1,7 @@
 .feature{
     display: flex;
     flex-direction: row;
-    gap: 92px;
+    justify-content: space-between;
     margin: 88px 100px;
     position: relative;
 }

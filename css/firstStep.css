@@ -1,9 +1,6 @@
 
   .firstStep {
-    margin: 0;
-    height: 774px;
     background: linear-gradient(to right, #F9F1E7 65%, #FCF8F3 35%);
-    position: relative;
   }
   
   .header {
@@ -14,6 +11,7 @@
   }
   
   .logo {
+    cursor: pointer;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.21;
@@ -23,6 +21,10 @@
   .logo a {
     text-decoration: none;
     color: black;
+  }
+  
+  .header-navigation a {
+    cursor: pointer;
   }
   
   .header-navigation ul {
@@ -64,6 +66,7 @@
   }
   
   .navigation-svg svg{
+    cursor: pointer;
     width: 5.833334445953369;
     height: 11.666666030883789;
     top: 7.5px;
@@ -111,12 +114,14 @@
   }
   
   .header-actions {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 32px;
   }
   
   .header-actions img {
+    cursor: pointer;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -154,6 +159,7 @@
   }
   
   .hero-content button{
+    cursor: pointer;
     width: 374px;
     height: 78px;
     background: rgba(232, 159, 113, 1);
@@ -191,11 +197,13 @@
   }
   
   .radio{
+    cursor: pointer;
     height: 27px;
     width: 27px;
   }
 
   .active-radio{
+    cursor: pointer;
     border: 1px solid #E89F71;
     border-radius: 50%;
   }
@@ -217,7 +225,6 @@
   }
   
   .slide-image {
-    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -272,6 +279,7 @@
   }
   
   .arrow-right{
+    cursor: pointer;
     position: absolute;
     width: 24px;
     height: 24px;
@@ -303,6 +311,7 @@
   }
   
   .left-side{
+    cursor: pointer;
     width: 48px;
     height: 48px;
     background: #E89F71;
@@ -314,6 +323,7 @@
   }
 
   .right-side{
+    cursor: pointer;
     width: 48px;
     height: 48px;
     background: #E89F71;

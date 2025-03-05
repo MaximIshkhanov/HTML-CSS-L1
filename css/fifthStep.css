@@ -1,6 +1,4 @@
 .fifthSection{
-    width: 1285px;
-    height: 520px;
     margin: 44px 78px;
 }
 
@@ -43,10 +41,12 @@
 }
 
 .fifthSection-left-side:hover {
+    cursor: pointer;
     box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
 }
 
 .fifthSection-ride-side:hover {
+    cursor: pointer;
     box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
 }
 
@@ -55,13 +55,19 @@
     z-index: 1;
 }
 
+.fifthSection-item img{
+    max-width: 391px;
+    max-height: 251px;
+}
+
 .fifthSection-item:hover {
+    cursor: pointer;
     box-shadow: 0 4px 20px  rgba(97, 97, 97, 0.1);
 }
 
 .fifthSection-item div{
-    width: 391px;
-    height: 119px;
+    max-width: 391px;
+    max-height: 119px;
     background: rgba(255, 255, 255, 1);
 }
 
