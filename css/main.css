@@ -6,11 +6,29 @@
 @import url(./sixthStep.css);
 @import url(./seventhStep.css);
 
-body {
-    height: 4675px;
-    margin: 0;
-    font-family: Gilroy, sans-serif;
-    font-weight: 400;
+/* Подключение шрифта Gilroy */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('../fonts/Gilroy-Regular.woff') format('woff'),
+         url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
-    
-  }
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+         url('../fonts/Gilroy-Bold.woff') format('woff'),
+         url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    /* height: 4675px; */
+    margin: 0;
+    font-family: 'Gilroy', sans-serif; /* Применение шрифта Gilroy */
+  /* /  font-weight: 400; /* М */
+    font-style: normal;
+}

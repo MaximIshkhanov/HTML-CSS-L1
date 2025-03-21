@@ -1,14 +1,14 @@
-.seventhSection{
+.about{
     margin-top: 87px;
 }
 
-.seventhSection hr{
-    margin: 0px 100px;
+.about hr{
+    margin: 0 100px;
     border: none;
     height: 1px;
     background-color: rgba(216, 216, 216, 1);
 }
-.seventhSection-content{
+.about-content{
     margin: 80px 100px 0 100px;
     display: flex;
     gap: 80px;
@@ -26,7 +26,7 @@
     gap: 8px;
 }
 
-.box-tital{
+.content-box-tital{
     white-space: nowrap;
     font-weight: 700;
     font-size: 24px;
@@ -34,7 +34,7 @@
     letter-spacing: 0%;
     color: rgba(0, 0, 0, 1);
 }
-.box-text{
+.content-box-text{
     white-space: nowrap;
     font-weight: 400;
     font-size: 16px;
@@ -43,7 +43,7 @@
     color: rgba(97, 97, 97, 1);
 }
 
-.box-link{
+.content-box-link{
     cursor: pointer;
     white-space: nowrap;
     font-weight: 400;

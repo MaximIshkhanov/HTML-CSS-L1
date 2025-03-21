@@ -1,19 +1,19 @@
-.fifthSection{
+.offers{
     margin: 44px 78px;
 }
 
-.fifthSection>h2{
+.offers>h2{
     text-align: center;
 }
 
-.fifthSection-content{
+.offers-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
 }
 
-.fifthSection-left-side{
+.offers-left-side{
     left: 53px;
     position: absolute;
     display: flex;
@@ -27,7 +27,7 @@
     z-index: 2;
 }
 
-.fifthSection-ride-side{
+.offers-ride-side{
     right: 53px;
     position: absolute;
     display: flex;
@@ -40,38 +40,38 @@
     z-index: 2;
 }
 
-.fifthSection-left-side:hover {
+.offers-left-side:hover {
     cursor: pointer;
-    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
 }
 
-.fifthSection-ride-side:hover {
+.offers-ride-side:hover {
     cursor: pointer;
-    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
 }
 
-.fifthSection-item {
+.offers-item {
     backdrop-filter: blur(40px);
     z-index: 1;
 }
 
-.fifthSection-item img{
+.offers-item img{
     max-width: 391px;
     max-height: 251px;
 }
 
-.fifthSection-item:hover {
+.offers-item:hover {
     cursor: pointer;
     box-shadow: 0 4px 20px  rgba(97, 97, 97, 0.1);
 }
 
-.fifthSection-item div{
+.offers-item div{
     max-width: 391px;
     max-height: 119px;
     background: rgba(255, 255, 255, 1);
 }
 
-.fifthSection-item h5{
+.offers-item h5{
     margin: 16px;
     font-weight: 600;
     font-size: 24px;
@@ -80,7 +80,7 @@
     color: rgba(58, 58, 58, 1);
 }
 
-.fifthSection-item span{
+.offers-item span{
     margin-top: -8px;
     margin-left: 16px;
     font-weight: 400;
@@ -90,7 +90,7 @@
     color: rgba(137, 137, 137, 1);
 }
 
-.fifthSection-indicator{
+.offers-indicator{
     display: flex;
     margin-top: 25px;
     justify-content: center; 

@@ -1,17 +1,17 @@
-.sixthSection{
+.gallery{
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
 
-.sixthSection-text{
+.gallery-text{
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.sixthSection-text span{
+.gallery-text span{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.sixthSection-text h2{
+.gallery-text h2{
     margin-top: 8px;
     font-weight: 700;
     font-size: 40px;
@@ -109,7 +109,7 @@
     grid-row-end: 47;
 }
 
-.sixthSection-content{
+.gallery-content{
     display: grid;
     grid-template-rows: repeat(45, 16px);
     grid-template-columns: repeat(99, 16px);
