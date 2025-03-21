@@ -1,12 +1,12 @@
-@import url(./firstStep.css);
-@import url(./secondStep.css);
-@import url(./thirdStep.css);
-@import url(./fourthStep.css);
-@import url(./fifthStep.css);
-@import url(./sixthStep.css);
-@import url(./seventhStep.css);
+@import url(./menu-block.css);
+@import url(./statistic.css);
+@import url(./showcase.css);
+@import url(./rooms.css);
+@import url(./offers.css);
+@import url(./gallery.css);
+@import url(./about.css);
 
-/* Подключение шрифта Gilroy */
+
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
@@ -16,19 +16,8 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-         url('../fonts/Gilroy-Bold.woff') format('woff'),
-         url('../fonts/Gilroy-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 body {
-    /* height: 4675px; */
     margin: 0;
-    font-family: 'Gilroy', sans-serif; /* Применение шрифта Gilroy */
-  /* /  font-weight: 400; /* М */
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
 }

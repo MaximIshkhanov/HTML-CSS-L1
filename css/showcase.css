@@ -1,6 +1,5 @@
 .showcase{
     display: flex;
-    justify-showcase-content: center;
     align-items: center;
     flex-direction: column;
 } 
@@ -110,7 +109,6 @@
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-showcase-content: center;
     text-align: center;
     margin-left: 206px;
     margin-top: 21px;
@@ -128,7 +126,6 @@
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-showcase-content: center;
     text-align: center;
     margin-left: 205px;
     margin-top: 22px;
