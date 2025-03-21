@@ -1,0 +1,24 @@
+@import url(./menu-block.css);
+@import url(./statistic.css);
+@import url(./showcase.css);
+@import url(./rooms.css);
+@import url(./offers.css);
+@import url(./gallery.css);
+@import url(./about.css);
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('../fonts/Gilroy-Regular.woff') format('woff'),
+         url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 4675px;
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+}

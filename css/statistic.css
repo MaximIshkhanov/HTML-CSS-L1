@@ -1,0 +1,42 @@
+.statistic-content{
+    display: flex;
+    flex-direction: row;
+    gap: 89px;
+    margin: 88px 100px;
+    position: relative;
+}
+
+.statistic-content > div{
+    width: 280px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.statistic-content img{
+    margin: 22px 24px 23px 22px;
+}
+
+.statistic-content-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    letter-spacing: -0.3px;
+}
+.title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    color: rgba(58, 58, 58, 1);
+}
+.context{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-wrap:unset;
+    white-space: nowrap;
+    color: rgba(137, 137, 137, 1);
+}

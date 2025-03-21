@@ -1,0 +1,116 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.gallery-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-text span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.gallery-text h2{
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.ssc-m1 {
+    width: 274px;
+    height: 382px;
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 24;   
+}
+
+.ssc-m2 {
+    width: 381px;
+    height: 323px;
+    grid-column-start: 1;
+    grid-column-end: 42;
+    grid-row-start: 26;
+    grid-row-end: 45;
+}
+
+.ssc-m3 { 
+    width: 451px;
+    height: 271px;
+    grid-column-start: 19;
+    grid-column-end: 42;
+    grid-row-start: 8;
+    grid-row-end: 33;
+}
+
+.ssc-m4 {      
+    width: 340px;
+    height: 242px;
+    grid-column-start: 26;
+    grid-column-end: 42;
+    grid-row-start: 26;
+    grid-row-end: 35;
+}
+
+.ssc-m5 {  
+    width: 290px;
+    height: 392px;
+    grid-column-start: 68;
+    grid-column-end: 48;
+    grid-row-start: 12;
+    grid-row-end: 35;
+}
+
+.ssc-m6 {   
+    width: 286px;
+    height:  340px;
+    grid-column-start: 79;
+    grid-column-end: 67;
+    grid-row-start: 8;
+    grid-row-end: 35;
+}
+
+.ssc-m7 {  
+    width: 178px;
+    height: 242px;
+    grid-column-start: 79;
+    grid-column-end: 67;
+    grid-row-start: 30;
+    grid-row-end: 35;
+}
+
+.ssc-m8 {  
+    width: 429px;
+    height: 420px;
+    grid-column-start: 90;
+    grid-column-end: 86;
+    grid-row-start: 3;
+    grid-row-end: 47;
+}
+
+.ssc-m9 {  
+    width: 350px;
+    height: 200px;
+    grid-column-start: 79;
+    grid-column-end: 86;
+    grid-row-start: 30;
+    grid-row-end: 47;
+}
+
+.gallery-content{
+    display: grid;
+    grid-template-rows: repeat(45, 16px);
+    grid-template-columns: repeat(99, 16px);
+}
